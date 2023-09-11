@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/index.css"> <!-- Include an external CSS file -->
+
+    <title>User Form</title>
+</head>
+
+<body>
+    <form action="/submit" method="post" id="user_form"> <!-- Start of the form with POST method and unique ID -->
+        <table>
+            <tbody>
+                <tr class="user_name_row">
+                    <td><label for="user_name">Name:</label></td> <!-- Label for the Name input field -->
+                    <td><input type="text" name="name" id="user_name" autofocus></td>
+                    <!-- Text input for Name with autofocus -->
+                </tr>
+                <tr class="user_name_row">
+                    <td><label for="user_address">Address:</label></td> <!-- Label for the Address textarea -->
+                    <td><textarea id="user_address" name="address"></textarea></td> <!-- Textarea for Address -->
+                </tr>
+            </tbody>
+        </table>
+        <div class="user_submit">
+            <button type="submit" id="user_submit">Submit</button> <!-- Submit button to send the form data -->
+        </div>
+    </form>
+</body>
+
+</html>
