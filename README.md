@@ -34,5 +34,6 @@ This project uses the following dependencies:
 This project is licensed under the ISC License.
 
 ## Author
+```
 Niroop R
 ```
